@@ -10,13 +10,13 @@ public class ejercicio1 : MonoBehaviour
 
     private void Start()
     {
-        Mult(X, Y, Z);
+        Mult(X, Y, Z); // we call the function
     }
 
     private float Mult(float NumX, float NumY, float NumZ)
     {
 
-        float result = (X + Y + Z) / 3;
+        float result = (X + Y + Z) / 3; //operation that follows our exercice
         return result;
 
     }

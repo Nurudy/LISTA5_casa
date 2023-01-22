@@ -9,18 +9,18 @@ public class ejercicio2 : MonoBehaviour
 
     private void Start()
     {
-        Login(user, password);
+        Login(user, password); //we call the function
     }
 
     private bool Login(string user, string password)
     {
-        if(user == "amdin" && password == "abccba")
+        if(user == "amdin" && password == "abccba") //that's the true password and username
         {
-            return true;
+            return true; //you'll enter to the count 
         }
         else
         {
-            return false;
+            return false; //if is not, you won't enter
         }
     }
 }
